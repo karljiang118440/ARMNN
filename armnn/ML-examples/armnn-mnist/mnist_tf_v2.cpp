@@ -31,7 +31,9 @@
 #include "armnn/INetwork.hpp"
 #include "armnnTfParser/ITfParser.hpp"
 
-#include "../armnn/mnist_loader.hpp"
+
+#include "mnist_loader.hpp"
+//#include "../armnn/mnist_loader.hpp"
 #define TENSOR_MODEL "model/simple_mnist_tf.prototxt"
 
 armnn::InputTensors MakeInputTensors(const std::pair<armnn::LayerBindingId,
